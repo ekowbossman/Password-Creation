@@ -37,13 +37,13 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 #### Mock-Up
-![alt text](./assets/Screenshot_password1.png)
-![alt text](./assets/Screenshot_password2.png)
-![alt text](./assets/Screenshot_password3.png)
-![alt text](./assets/Screenshot-password4.png)
-![alt text](./assets/Screenshot%20_password5.png)
-![alt text](./assets/screenshot-password6.png)
-![alt text](./assets/Screenshot_password7.png)
+![alt text](./assets/image/Screenshot_password1.png)
+![alt text](./assets/image/Screenshot_password2.png)
+![alt text](./assets/image/Screenshot_password3.png)
+![alt text](./assets/image/Screenshot-password4.png)
+![alt text](./assets/image/Screenshot%20_password5.png)
+![alt text](./assets/image/screenshot-password6.png)
+![alt text](./assets/image/Screenshot_password7.png)
 
  
  ##### Deployed site link: https://ekowbossman.github.io/password-generation/

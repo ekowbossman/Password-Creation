@@ -10,13 +10,13 @@ function writePassword() {
   passwordText.value = password;
 }
 
-// Event listener to generate button
+// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// Prompts that come up after click generate password
+// Prompts that come up after you click generate password
 function generatePassword() {
   var passwordLength = prompt(
-    "Password must be atleast 8 characters and no more than 128 characters."
+    "Please choose the length of your password.  It must be at least 8 characters and no more than 128 characters."
   );
 
   var numbers = confirm("Do you want numbers in your password?");
@@ -57,7 +57,7 @@ function generatePassword() {
     },
   };
 
-  // Making sure user selected ok for all and uses empty minimums from above
+  // Checks to make sure user selected ok for all and uses empty minimums from above
 
   if (numbers === true) {
     minimumNumbers = functionArray.getNumbers();
@@ -87,7 +87,6 @@ function generatePassword() {
     var randomNumberPicked = Math.floor(Math.random() * 4);
 
     randomPasswordGenerated += randomNumberPicked;
-    var stop
   }
 
   // to make sure characters are added to the password
@@ -102,3 +101,4 @@ function generatePassword() {
 
   return randomPasswordGenerated;
 }
+
